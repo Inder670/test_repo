@@ -1,0 +1,40 @@
+.main_div{
+    width: 90%;
+    height: 100%;
+    background-color: rgba(4,58,92,.8);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    color:white;
+    transition: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    transition-duration: 1s;
+
+
+}
+
+.main_div:hover{
+    width:70%;
+    transition: ease-in-out;
+    box-shadow: darkseagreen;
+    transition-duration: 1s;
+    background-color: rgba(4,58,92,1);
+
+
+
+}
+
+a{
+    color: white;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.ordered_list{
+    margin: auto;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li{
+    line-height: 100px;
+}
